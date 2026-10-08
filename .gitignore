@@ -1,0 +1,62 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.keystore
+*.jks
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+credentials*.json
+secrets.*
+*secret*.json
+service-account*.json
+.aws/
+.ssh/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# --- C (compiled output) ---
+*.o
+*.out
+a.out
+*.exe
+/solution
+**/solution
+!**/solution.*
+
+# --- Data and models (too big or private for this repo) ---
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.h5
+*.pt
+*.onnx
+data/
+
+# --- Editor and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

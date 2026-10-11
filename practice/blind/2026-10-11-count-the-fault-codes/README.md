@@ -32,6 +32,10 @@ In my first attempt I called strlen before checking for NULL, so the guard did n
 
 O(n) time (one strlen pass plus one loop pass, which is about 2n), O(1) extra space.
 
+## Another approach: pointer walk (`solution_v2.c`)
+
+[`solution_v2.c`](solution_v2.c) drops `strlen` and the index. It walks the pointer itself with `for (; *log; log++)` and checks `*log == 'E' && isdigit((unsigned char) log[1])`. The loop stops at the `'\0'` terminator, so the string is read in one pass instead of two, and there's no `size_t` result squeezed into an `int`. It is still O(n) time and O(1) extra space, and it passes the same 9 tests.
+
 ## Attempts
 
 | # | Verdict | Score |
@@ -49,3 +53,5 @@ O(n) time (one strlen pass plus one loop pass, which is about 2n), O(1) extra sp
 Solved from a blank file in a timed blind session, then reviewed and corrected before publishing.
 
 Run: `clang -Wall -o solution solution.c && ./solution`
+
+Run the pointer version: `clang -Wall -o solution_v2 solution_v2.c && ./solution_v2`

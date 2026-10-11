@@ -2,6 +2,8 @@
 
 My public practice log on the way to becoming an ML engineer for industrial and energy systems.
 
+**[Proof wall →](PROOF.md)** — everything I've finished, with dates and links. Updated automatically.
+
 Every entry here was:
 
 1. solved from a blank file in a timed session, without notes;

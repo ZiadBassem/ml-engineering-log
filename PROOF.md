@@ -6,6 +6,8 @@ Everything here is generated from my learning log: reviewed and accepted solutio
 
 | Date | Proof | Result |
 |---|---|---|
+| 2026-10-12 | Retention quiz 7/10 or better | 10/10 |
+| 2026-10-12 | Retention quiz 9/10 or better | 10/10 |
 | 2026-10-11 | [Blind solve: Count the Fault Codes](practice/blind/2026-10-11-count-the-fault-codes/) <br><sub>Strings & parsing · Easy · C</sub> | accepted 9/10 · 2 attempts |
 | 2026-10-11 | First clean accept | Count the Fault Codes, 9/10 |
 | 2026-10-08 | [Blind solve: Busiest Load Level](practice/blind/2026-10-08-busiest-load-level/) <br><sub>Arrays & Hashing · Easy · C</sub> | accepted 10/10 · 7 attempts |

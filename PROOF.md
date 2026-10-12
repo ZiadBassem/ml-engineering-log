@@ -2,7 +2,7 @@
 
 Everything here is generated from my learning log: reviewed and accepted solutions, NeetCode submissions, finished courses and projects, and milestones. Nothing is added by hand unless it is marked as a manual entry in the log.
 
-**2** solutions published · **0**/150 NeetCode problems solved · **25** topics covered · plan started 2026-10-08
+**2** solutions published · **0**/150 NeetCode problems solved · **26** topics covered · plan started 2026-10-08
 
 | Date | Proof | Result |
 |---|---|---|
@@ -11,4 +11,4 @@ Everything here is generated from my learning log: reviewed and accepted solutio
 | 2026-10-08 | [Blind solve: Busiest Load Level](practice/blind/2026-10-08-busiest-load-level/) <br><sub>Arrays & Hashing · Easy · C</sub> | accepted 10/10 · 7 attempts |
 | 2026-10-08 | First solution published | on GitHub |
 
-<sub>Last updated 2026-10-11 · built by my Control Room app</sub>
+<sub>Last updated 2026-10-12 · built by my Control Room app</sub>
